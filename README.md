@@ -1,1 +1,1 @@
-﻿# neural networks
+﻿# Sokoban solvers
