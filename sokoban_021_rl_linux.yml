@@ -1,0 +1,11 @@
+name: sokoban
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9
+  - gym==0.21.0
+  - gym_sokoban==0.0.6
+  - ipykernel
+  - scikit-learn
+  - stable-baselines3
