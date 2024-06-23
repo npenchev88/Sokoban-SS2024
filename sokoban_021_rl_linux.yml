@@ -4,8 +4,9 @@ channels:
   - defaults
 dependencies:
   - python==3.9
-  - gym==0.21.0
-  - gym_sokoban==0.0.6
   - ipykernel
   - scikit-learn
   - stable-baselines3
+  - pip:
+      - gym==0.21.0
+      - gym-sokoban==0.0.6
