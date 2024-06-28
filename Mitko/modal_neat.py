@@ -59,7 +59,7 @@ p = neat.Population(config)
 p.add_reporter(neat.StdOutReporter(True))
 stats = neat.StatisticsReporter()
 p.add_reporter(stats)
-
+ 
 @app.function(gpu="any")
 def run():
     winner = p.run(fitness, 5)
