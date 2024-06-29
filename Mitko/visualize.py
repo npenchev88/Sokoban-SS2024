@@ -2,6 +2,7 @@
 import matplotlib.pyplot as plt
 import graphviz
 import warnings
+import numpy as np
 
 def plot_stats(statistics, ylog=False, view=False, filename='avg_fitness.svg'):
     generation = range(len(statistics.most_fit_genomes))
