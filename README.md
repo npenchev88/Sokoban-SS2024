@@ -6,12 +6,6 @@ Reinforcement Learning (RL) and NeuroEvolution of Augmenting Topologies (NEAT).
 This project leverages external repositories, specifically the OpenAI Gym and the gym-sokoban wrapper, 
 to create a platform for experimenting with these algorithms.
 
-## Repository Structure
-- `rl_algorithm/`: Contains the implementation of the RL algorithm for solving Sokoban.
-- `neat_algorithm/`: Contains the implementation of the NEAT algorithm for solving Sokoban.
-- `gym-sokoban/`: External repository integrated for the Sokoban game environment.
-- `gym-sokoban/gym_sokoban/envs/sokoban_env.py`: Custom file for hardcoding a specific level in the Sokoban game.
-- `requirements.txt`: List of dependencies required to run the project.
 
 ## Setup and Installation
 
